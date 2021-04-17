@@ -1,0 +1,6 @@
+version: '3'
+services:
+  hexo-guediao-ng:
+    image: registry.cn-shenzhen.aliyuncs.com/visnz-self/hexo-guediao-ng
+    ports:
+      - "16123:80"

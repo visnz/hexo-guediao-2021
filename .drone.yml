@@ -1,0 +1,10 @@
+pipeline:
+  push-to-registry:
+    image: plugins/docker
+    username: visnz
+    password:
+      from_secret: password
+    repo: registry.guediao.top/visnz/hexo-guediao
+    registry: registry.guediao.top
+    tags:
+      - latest

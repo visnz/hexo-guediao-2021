@@ -1,0 +1,10 @@
+node_modules/*
+db\.json
+public/*
+Dockerfile~
+ossutil*
+*.DS_Store
+themes/edinburgh/
+source/videos/
+
+source/images/cover/template.psd
